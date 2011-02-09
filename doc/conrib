@@ -1,0 +1,52 @@
+Contribtiors' guide
+---------------------
+Table of Contents
+--------------------
+1. Helping with the project
+
+2. Commit styles
+
+3. Braching
+
+
+---------------------------------
+1. Helping with Project
+ç
+Want to help with project? Then lets know. 
+Before you contact us the you will need at least one of these skills
+* Ruby on Rails knowlage
+* HTML / CSS 
+* An Education Background
+* RSpec testing knowlage
+If have one or MORE of these skills please e-mail the lead developer, Matthew Burket at Matthew@AssignItApp.com.
+----------------------------------
+
+2. Commit Styles
+--------------------
+When you commit to this project or a fork that you want merege you MUST follow this style:
+
+[Branch-Name] [ADDED, REMOVED, UPDATE, BUG-FIX] [#case-number] [Your changes in a nut shell]
+
+[Brach-Name] What brach you are commiting on
+[ADDED, REMOVED, UPDATE, BUG-FIX, RELEASE] Select one that fits what you did
+[case-number] If there was if your commit was in response to a case please put the number here. If there isn't skip it.
+[Your changes in a nut shell] In 2 sentents expline what changes were made
+
+Here is a sample commit
+[ITED] [ADDED] Added the questions for Leval 15.
+
+----------------------------------
+
+3. Commiting
+----------------------------------
+
+When you commit you first must use the sytax above. Also you need commit on the right branch. 
+What does on the master?
+*Releases
+The master branch is for the RELEASES ONLY!
+If you have changes that being submited commit to another branch!
+
+What does on the testing branch?
+* Things that have been reviewed and approve for testing.
+
+ANY NEW COMMITS go a differnt Branch.
