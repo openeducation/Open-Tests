@@ -20,8 +20,7 @@ If you have not all ready do
 
 > gem install heroku
 
-then 
-
+Then add your SSH keys.
 > heroku add:keys
 
 Once you have done that (or if heroku is already installed do)
