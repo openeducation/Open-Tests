@@ -18,28 +18,28 @@ Then unpack the files. Then open up the command file and cd into the directory. 
 
 If you have not all ready do
 
-> gem install heroku
+> $ gem install heroku
 
 then 
 
-> heroku add:keys
+> $ heroku add:keys
 
 Once you have done that (or if heroku is already installed do)
 Create the App.
-> heroku create
+> $ heroku create
 
 Create the git repo
 
-> git init
+> $ git init
 
 Add all of the files.
 
-> git add .
+> $ git add .
 
 Commit it.
 
-> git commit -m "First Commit"
+> $ git commit -m "First Commit"
 
 Deploy the app
 
-> git push heroku master
+> $ git push heroku master
