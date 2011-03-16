@@ -1,6 +1,6 @@
 # Open Tests
-An Ruby on Rails Testing site
-Open test is proudly open source.
+An Ruby on Rails Testing site,
+OpenTest is proudly open source.
 
 ##Credits
 Matthew Burket <Matthew@AssignItApp.com || Lead Developer 
