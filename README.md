@@ -14,7 +14,7 @@ To install OpenTests download the lastest version from the download link.
 Then unpack the files. Then open up the command file and cd into the directory. Then run
 
 If you have not all ready install Ruby on Rails. If don't have rails installed follow these steps. 
-If have rails installed skip to the second step.
+* If have rails installed skip to ** Step 2 ** step. *
 
 ### Step: 1 Install Ruby on Rails
 
@@ -40,7 +40,7 @@ Then you should be all set if have an issue. Talk with the people who make the p
 
 Bundler will install of the gems need for Opentest to run.
 
-If you have step heroku please skip to step 4.
+* If you have step Heroku please skip to ** step 4 **. *
 
 ### Step 3: Setting Up Heroku
 
