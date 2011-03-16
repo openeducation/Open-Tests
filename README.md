@@ -14,21 +14,21 @@ To install OpenTests download the lastest version from the download link.
 Then unpack the files. Then open up the command file and cd into the directory. Then run
 
 If you have not all ready install Ruby on Rails. If don't have rails installed follow these steps. 
-*** If have rails installed skip to ** Step 2 ** step. ***
+** If have rails installed skip to *** Step 2 *** step. **
 
 ### Step: 1 Install Ruby on Rails
 
 #### For Ubuntu 10.10
 
-1. Install Git
+1) Install Git
 
 > sudo apt-get install git-core
 
-2. Install Ruby and RubyGems
+2) Install Ruby and RubyGems
 
 > sudo apt-get install ruby-full rubygems
 
-3. Install Rails
+3) Install Rails
 
 > sudo gem install rails
 
@@ -40,17 +40,17 @@ Then you should be all set if have an issue. Talk with the people who make the p
 
 Bundler will install of the gems need for Opentest to run.
 
-*** If you have step Heroku please skip to ** step 4 **. ***
+** If you have step Heroku please skip to *** step 4 ***. **
 
 ### Step 3: Setting Up Heroku
 
-1. Install the heroku gem 
+1) Install the heroku gem 
 
 > $ gem install heroku
 
-2. Create an heroku account at https://api.heroku.com/signup
+2) Create an heroku account at https://api.heroku.com/signup
 
-3. Add your keys
+3) Add your keys
 
 > $ heroku add:keys
 
