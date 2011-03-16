@@ -9,23 +9,53 @@ Matthew Burket <Matthew@AssignItApp.com || Lead Developer
 This software is released under the GPL v3 license.
 full license in docs/LICENSE
 
-##Install
+## Install
 To install OpenTests download the lastest version from the download link.
 Then unpack the files. Then open up the command file and cd into the directory. Then run
+
+If you have not all ready install Ruby on Rails. If don't have rails installed follow these steps. 
+If have rails installed skip to the second step.
+
+### Step: 1 Install Ruby on Rails
+
+#### For Ubuntu 10.10
+
+1. Install Git
+
+> sudo apt-get install git-core
+
+2. Install Ruby and RubyGems
+
+> sudo apt-get install ruby-full rubygems
+
+3. Install Rails
+
+> sudo gem install rails
+
+Then you should be all set if have an issue. Talk with the people who make the product.
+
+### Step 2: Install the gems
+
 > bundle install
 
-### Deploying to heroku
+Bundler will install of the gems need for Opentest to run.
 
-If you have not all ready do
+If you have step heroku please skip to step 4.
+
+### Step 3: Setting Up Heroku
+
+1. Install the heroku gem 
 
 > $ gem install heroku
 
-then 
+2. Create an heroku account at https://api.heroku.com/signup
+
+3. Add your keys
 
 > $ heroku add:keys
 
-Once you have done that (or if heroku is already installed do)
-Create the App.
+### Step 4: Deploying to Heroku
+
 > $ heroku create
 
 Create the git repo
@@ -43,3 +73,5 @@ Commit it.
 Deploy the app
 
 > $ git push heroku master
+
+Well, done you have set up OpenTest.
