@@ -9,6 +9,10 @@ Matthew Burket <Matthew@AssignItApp.com || Lead Developer
 This software is released under the GNU v3 license.
 full license in docs/LICENSE
 
+## Support
+Got bugs? The go in [Light House](http://openeducation.lighthouseapp.com/projects/72462-open-tests/overview)
+Need Support Go to [our tender](https://openeducation.tenderapp.com)
+
 ## Install
 To install OpenTests download the lastest version from the download link.
 Then unpack the files. Then open up the command file and cd into the directory. Then run
@@ -96,4 +100,4 @@ Deploy the app
 
 Well done! You have installed open-tests.
 
-Got bugs? The go in [Light House](http://openeducation.lighthouseapp.com/projects/72462-open-tests/overview)
+
