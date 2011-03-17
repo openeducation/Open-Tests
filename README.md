@@ -20,6 +20,7 @@ If you have not all ready install Ruby on Rails. If don't have rails installed f
 
 #### For Ubuntu 10.10
 
+<<<<<<< HEAD
 1) Install Git
 
 > $ sudo apt-get install git-core
@@ -76,6 +77,10 @@ Bundler will install all of the gems needed for Opentest to run.
 
 > $ heroku create
 
+=======
+Then add your SSH keys.
+> heroku add:keys
+>>>>>>> 1ea6110065afb4a3e3aac92baee32e81988c5d0c
 
 Add all of the files.
 
