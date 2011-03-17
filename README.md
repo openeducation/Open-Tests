@@ -6,7 +6,7 @@ OpenTest is proudly open source.
 Matthew Burket <Matthew@AssignItApp.com || Lead Developer 
 
 ##License
-This software is released under the GPL v3 license.
+This software is released under the GNU v3 license.
 full license in docs/LICENSE
 
 ## Install
