@@ -22,15 +22,15 @@ If you have not all ready install Ruby on Rails. If don't have rails installed f
 
 1) Install Git
 
-> sudo apt-get install git-core
+> $ sudo apt-get install git-core
 
 2) Install Ruby and RubyGems
 
-> sudo apt-get install ruby-full rubygems
+> $ sudo apt-get install ruby-full rubygems
 
 3) Install Rails
 
-> sudo gem install rails
+> $ sudo gem install rails
 
 Then you should be all set if have an issue. Talk with the people who make the product.
 
