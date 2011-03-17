@@ -34,13 +34,31 @@ If you have not all ready install Ruby on Rails. If don't have rails installed f
 
 Then you should be all set if have an issue. Talk with the people who make the product.
 
-### Step 2: Install the gems
+### Step 2: Get Open-tests
 
-> bundle install
+1) Make a new folder for open tests
 
-Bundler will install of the gems need for Opentest to run.
+> $ mkdir opentests
 
-** If you have step Heroku please skip to *** step 4 ***. **
+2) cd into the folder that you made for opentests
+
+> $ cd opentests
+
+3) Create the git repo
+
+> $ git init
+
+4) Pull the source from github
+
+> $ git pull git://github.com/openeducation/Open-Tests.git master
+
+5) bundle the gems
+
+> $ bundle install
+
+Bundler will install all of the gems needed for Opentest to run.
+
+** If you have step Heroku please skip to *** Step 4 ***. **
 
 ### Step 3: Setting Up Heroku
 
@@ -58,9 +76,6 @@ Bundler will install of the gems need for Opentest to run.
 
 > $ heroku create
 
-Create the git repo
-
-> $ git init
 
 Add all of the files.
 
@@ -68,10 +83,10 @@ Add all of the files.
 
 Commit it.
 
-> $ git commit -m "First Commit"
+> $ git commit -m "First Deloy"
 
 Deploy the app
 
 > $ git push heroku master
 
-Well, done you have set up OpenTest.
+Well done! You have installed open-tests
