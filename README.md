@@ -78,6 +78,7 @@ Bundler will install all of the gems needed for Opentest to run.
 
 
 Then add your SSH keys.
+If don't have SSH key please see [this great guide](http://http://help.github.com/working-with-key-passphrases/) by the folks over it [GitHub](http://github.com)
 
 > heroku add:keys
 
