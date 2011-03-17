@@ -94,4 +94,6 @@ Deploy the app
 
 > $ git push heroku master
 
-Well done! You have installed open-tests
+Well done! You have installed open-tests.
+
+Got bugs? The go in [Light House](http://openeducation.lighthouseapp.com/projects/72462-open-tests/overview)
