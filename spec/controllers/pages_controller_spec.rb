@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe PagesController do
-
+  render_views
   describe "GET 'Home'" do
     it "should be successful" do
       get 'Home'
@@ -30,6 +30,9 @@ describe PagesController do
       get 'Contact'
       response.should be_success
     end
+    it "should should have the right title"
+      
+
   end
 
 end
