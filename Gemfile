@@ -6,8 +6,10 @@ gem 'nokogiri'
 gem "flutie", "~> 1.1"
 gem 'unicorn'
 
+
 group :development do
   gem 'rspec-rails', '2.5.0'
+  gem 'annotate-models', '1.0.4'
 end
 
 group :test do
