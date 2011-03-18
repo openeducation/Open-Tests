@@ -1,16 +1,16 @@
 Num1::Application.routes.draw do
-  get "docs_app/index"
-
-  get "docs_app/CREDITS"
-
-  get "docs_app/LICENSE"
+  
+# Match
+  match "/docs-app/license", :to => 'docs_app#LICENSE'
+  match "/docs-app/credits", :to =>'docs_app#CREDITS' 
+  match "/about ", :to => 'pages#Home'
+  match "/contact", :to => 'pages#Home'
+  match "/docs-app", :to => 'docs_app#index'
+  
 
 # Root
   root :to => "pages#Home"
-# Match
-  get "pages/Contact"
-  match "/about ", :to => 'pages#Home'
-  match "/Contact", :to => 'pages#Home'
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
