@@ -1,9 +1,12 @@
 Num1::Application.routes.draw do
+  get "docs_app/index"
+
+  get "docs_app/CREDITS"
+
+  get "docs_app/LICENSE"
+
 # Root
   root :to => "pages#Home"
-# Get
-  get "pages/Home"
-  get "pages/About"
 # Match
   get "pages/Contact"
   match "/about ", :to => 'pages#Home'
