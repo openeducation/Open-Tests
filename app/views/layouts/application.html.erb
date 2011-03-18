@@ -7,20 +7,35 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
+
+<div id="header">
+  <header>
+    <h1>Open Tests</h1>
+  </header>
+</div>
+<div id="top-nav-bar">
+  <%= link_to 'Sign Up', '# '%>
+  <%= link_to 'Sign In', '# '%>
+</div>
 <div id="wrapper">
-	<div id="body-wrapper">
-		<div id="header">
-			<h1>Online Standerized Testing</h1>
-			<p class="slogan">By Open Education</p>
-		</div>
-		<div id="body">
-	  <%= yield %>
-	</div>
-  <div id="footer">
-    <p>Copyright &copy; 2010-2011 Open Education</p>
-    <p><a href="https://github.com/openeducation/Open-Tests/">The code</a> for <%= link_to 'this site', root_path %> <a href="http://www.gnu.org/licenses/gpl-3.0-standalone.html">was released under the GNU GENERAL PUBLIC LICENSE Version 3</ay></p>
+  <nav id="nav">
+   <%= link_to 'Home' root_path %>
+  <%= link_to 'About', about_path %>
+  <%= link_to 'Contant', contact_path %>
+  </nav>
+  <div id="body-wrapper">
+    <div id="body">
+      <%= yield %>
+    </div>
   </div>
 </div>
+
+	  
+<div id="footer">
+    <p>Copyright &copy; 2011 Open Education</p>
+    <p> <%= link_to 'The Code', 'https://github.com/openeducation/Open-Tests/'%> for <%= link_to 'this site', root_path %> <%= %>http://www.gnu.org/licenses/gpl-3.0-standalone.html">was released under the GNU GENERAL PUBLIC LICENSE Version 3</a></p>     
+</div>
+
 	
 
 
