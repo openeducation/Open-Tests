@@ -6,8 +6,12 @@ OpenTest is proudly open source.
 Matthew Burket <Matthew@AssignItApp.com || Lead Developer 
 
 ##License
-This software is released under the GPL v3 license.
+This software is released under the GNU v3 license.
 full license in docs/LICENSE
+
+## Support
+Got bugs? The go in [Light House](http://openeducation.lighthouseapp.com/projects/72462-open-tests/overview)
+Need Support Go to [our tender](https://openeducation.tenderapp.com)
 
 ## Install
 To install OpenTests download the lastest version from the download link.
@@ -96,4 +100,4 @@ Deploy the app
 
 Well done! You have installed open-tests.
 
-Got bugs? The go in [Light House](http://openeducation.lighthouseapp.com/projects/72462-open-tests/overview)
+
