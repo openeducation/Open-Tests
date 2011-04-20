@@ -3,8 +3,8 @@ Num1::Application.routes.draw do
 # Match
   match "/docs-app/license", :to => 'docs_app#LICENSE'
   match "/docs-app/credits", :to =>'docs_app#CREDITS' 
-  match "/about", :to => 'pages#Home'
-  match "/contact", :to => 'pages#Home'
+  match "/about", :to => 'pages#About'
+  match "/contact", :to => 'pages#Contact'
   match "/docs-app", :to => 'docs_app#index'
   
 

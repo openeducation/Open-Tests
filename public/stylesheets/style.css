@@ -11,6 +11,7 @@ body {
   -moz-border-radius:25px; 
   border-radius:25px;
   -webkit-border-radius:25px;
+  -o-border-radius:25px;
   -moz-box-shadow:15px #000;
   -webkit-box-shadow:15px #000; 
   box-shadow:15px #000;
@@ -22,9 +23,68 @@ body {
   border-style:solid;
   border:5px;
   border-color:#FFF;
+  padding-right:12px;
+  padding-top:12px;
+  -moz-border-radius:25px; 
+  border-radius:25px;
+  -webkit-border-radius:25px;
+  -o-border-radius:25px;
 }
 
 #footer {
   float:center;
   text-align:center;
+}
+
+#top-nav-bar {
+  padding:15px;
+  background-color:#00E6E6;
+  float:right;
+  -moz-border-radius:25px; 
+  border-radius:25px;
+  -webkit-border-radius:25px;
+  -o-border-radius:25px;
+}
+
+.ident {
+  padding-right:45px;
+}
+
+#ident {
+  padding-right:45px;
+}
+
+.nav-item {
+  padding-top:9px;
+  padding-right:12px;
+  padding-left:12px;
+  padding-bottom:6px;
+  background-color:#00E6E6;
+  -moz-border-radius-topright:25px; 
+  border-top-right-radius:25px;
+  -webkit-border-top-right-radius:25px;
+  -o-border-radius-top-right:25px;
+  -moz-border-radius-topleft:25px; 
+  border-top-left-radius:25px;
+  -webkit-border-top-left-radius:25px;
+  -o-border-radius-top-left:25px;
+  
+}
+
+#nav {
+  padding-top:12px;
+}
+
+nav {
+  padding-top:12px;
+}
+
+#body-wrapper {
+  background-color:#00E6E8;
+  margin:10px;
+  padding:2px;
+  -moz-border-radius:25px; 
+  border-radius:25px;
+  -webkit-border-radius:25px;
+  -o-border-radius:25px;
 }

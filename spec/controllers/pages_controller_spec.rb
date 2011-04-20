@@ -30,7 +30,10 @@ describe PagesController do
       get 'Contact'
       response.should be_success
     end
-    it "should should have the right title"
+    
+    it "should have the right title" do
+      
+    end
       
 
   end

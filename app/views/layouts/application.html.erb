@@ -11,17 +11,18 @@
 <div id="header">
   <header>
     <h1>Open Tests</h1>
+    <p class="ident">Bring Tests to this day and age</p>
   </header>
 </div>
 <div id="top-nav-bar">
-  <%= link_to 'Sign Up', '# '%>
-  <%= link_to 'Sign In', '# '%>
+  <%= link_to 'Sign Up', '#' %>
+  <%= link_to 'Sign In', '#'%>
 </div>
 <div id="wrapper">
   <nav id="nav">
-   <%= link_to 'Home', root_path %>
-  <%= link_to 'About', about_path %>
-  <%= link_to 'Contant', contact_path %>
+  <%= link_to 'Home', root_path, :class => 'nav-item' %>
+  <%= link_to 'About', about_path, :class => 'nav-item' %>
+  <%= link_to 'Contant', contact_path, :class =>'nav-item' %>
   </nav>
   <div id="body-wrapper">
     <div id="body">
