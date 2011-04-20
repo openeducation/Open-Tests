@@ -102,4 +102,25 @@ Deploy the app
 
 Well done! You have installed open-tests.
 
+## Setting up a development environment
 
+### Step 1: Install Ruby, Ruby on Rails and, Git, ect
+
+To install Ruby and Ruby on Rails please follow [The Rails Tutorial install guide](http://ruby.railstutorial.org/). There is 
+no need to buy the tutorial. There should links to the full tutorial to install Ruby on Rails on Windows, Mac OS X, 
+and Linux environment.
+
+### Step 2: Get the Open-Tests Source
+In the command line
+> $ git clone git://github.com/openeducation/Open-Tests.git
+
+Then cd into open-tests folder
+> $ cd Open-Tests
+
+### Step 3: Install the gems that are needed
+
+> $ bundle install
+
+After the gems have been installed you are ready start the server
+
+> $ rails server
