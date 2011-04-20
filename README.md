@@ -113,7 +113,6 @@ and Linux environment on the homepage.
 ### Step 2: Get the Open-Tests Source
 In the command line
 
-
 > $ git clone git://github.com/openeducation/Open-Tests.git
 
 Then cd into open-tests folder
